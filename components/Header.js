@@ -1,7 +1,12 @@
 import Image from "next/image";
+import HeaderItem from "./HeaderItem";
+
 function Header() {
   return (
     <header>
+      <div>
+        <HeaderItem />
+      </div>
       <h1>Header</h1>
       <Image
         className="object-contain"
